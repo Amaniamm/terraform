@@ -1,5 +1,5 @@
 resource "local_file" "pet" {
-  filename = "/c/pets.txt"
+  filename = "pets.txt"
   content  = "we love pets!"
 }
 resource "random_pet" "mypet" {
